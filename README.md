@@ -1,4 +1,4 @@
-theCPL
-======
+theCPL - The C Programming Language
+====================================
 
-excises for the book `The C Programming Language`
+Exercises in the book : `The C Programming Language`
