@@ -15,3 +15,8 @@ string `s1` where any character from the string `s2` occurs, or `-1`
 if `s1` contains no characters from `s2`.
 (The standard library frunction `strpbrk` does the same job but returns
 a pointer to the location.)
+
+### 2-6.c
+Write a function `setbits(x, p, n, y)` that returns `x` with the `n` bits
+that begin at position `p` set to the rightmost `n` bits of `y`,leaving the
+other bits unchanges.
