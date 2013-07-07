@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-unsigned int rightrot(unsigned int x, int n)
+unsigned rightrot(unsigned x, int n)
 {
   int len = sizeof(x) * 8;  
   return (x << n) ^ (x >> (len-n));
