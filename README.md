@@ -25,3 +25,7 @@ other bits unchanged.
 Write a function `invert(x,p,n)` that returns `x` with the `n` bits that
 begin at point `p` inverted(ie., 1 changed to 0 and vice versa),leaving
 the others unchanged.
+
+**2-8.c**
+Write a function `rightrot(x,n) that returns the value of the integer `x`
+rotated to the right by `n` positions.
