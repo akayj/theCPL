@@ -1,6 +1,19 @@
 /* pbrk.c */
 #include <stdio.h>
 
+int any(char s1[], char s2[]);
+
+int main(void)
+{
+    char s1[] = "hello";
+    char s2[] = "x";
+
+    printf("location: %d\n", any(s1, s2));
+
+    return 0;
+}
+
+// Find the first position of any chars in s1 which is from s2.
 int any(char s1[], char s2[])
 {
     int k, i, j;
@@ -17,14 +30,4 @@ int any(char s1[], char s2[])
     }
     
     return k;
-}
-
-int main(void)
-{
-    char s1[] = "hello";
-    char s2[] = "x";
-
-    printf("location: %d\n", any(s1, s2));
-
-    return 0;
 }

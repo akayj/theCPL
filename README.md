@@ -20,3 +20,8 @@ a pointer to the location.)
 Write a function `setbits(x, p, n, y)` that returns `x` with the `n` bits
 that begin at position `p` set to the rightmost `n` bits of `y`,leaving the
 other bits unchanged.
+
+### 2-7.c
+Write a function `invert(x,p,n)` that returns `x` with the `n` bits that
+begin at point `p` inverted(ie., 1 changed to 0 and vice versa),leaving
+the others unchanged.

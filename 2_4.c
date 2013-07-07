@@ -12,6 +12,7 @@ void squeeze(char s[], int c)
     s[j] = '\0';
 }
 
+/* delete all chars in s1 which can be found in s2 */
 void squeeze2(char s1[], char s2[])
 {
     int k, i, j;
